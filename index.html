@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Welcome To My Portfolio</h1>
+      <p>I'm a Front-End Web Developer passionate about creating interactive and responsive websites.</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>I am a skilled web developer with expertise in HTML, CSS, and JavaScript. I have experience in building responsive and user-friendly websites. I enjoy working with the latest web technologies and always strive to learn new things.</p>
+      <p>Here are some of my skills:</p>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Github</li>
+        <li>WordPress</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="projects-content">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3><a href="https://www.pechempire.co.za/">Pech Empire Business Website</a></h3>
+        <p>This was a website created with WordPress for a multimedia business. </p>
+      </div>
+      <div class="project">
+        <h3><a href="https://naidoo29.github.io/fcc-markdown-previewer/"> Markdown Previewer</a></h3>
+        <p>As part of freeCodeCamp, I had to build a Markdown Previewer for one of my projects. </p>
+      </div>
+      <div class="project">
+        <h3><a href="https://naidoo29.github.io/fcc-drum-machine/"> Drum Machine</a></h3>
+        <p>A freeCodeCamp project made with React.</p>
+      </div>
+      <div>
+        <p>For more of my projects please check out my <a href="https://github.com/Naidoo29">Github</a> account</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-content">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out to me for any web development projects or collaborations.</p>
+      <form action="#" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Cherise Naidoo. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
